@@ -1,0 +1,122 @@
+.header{
+    background: #30336b;
+    color: #fff;
+}
+.header-logo img{
+    width: 180px;
+    padding: 20px;
+}
+.header-menu{}
+.header-menu ul{margin-bottom: 0;text-align: right;}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 78px;
+    border-right: 1px solid #ddd;
+    transition: .4s;
+    
+  }
+.header-menu ul li a:hover{
+    color: #3ec75c;
+}
+
+.banner{
+    background-image: url(./img/banner-cc-1030x515.jpg);
+    padding: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; background-attachment: fixed;
+}
+.banner-text h2 {
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+  .banner-text h1 {
+    background: rgba(255,0,0,0.3);
+    color: #ddd;
+    padding: 10px 0;
+    font-size: 40px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+
+.about{
+    background: rgba(0,0,0,.1);
+}
+.service{
+   background: rgba(255,0,0,0.1);
+}
+.service span {
+    background: #30336b;
+    color: #fff;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    line-height: 60px;
+    margin-top: 10px;
+    border-radius: 20px 0 20px 0;
+    margin-bottom: 10px;
+  }
+
+img{
+    max-width: 100%;
+}
+
+.product-item p{
+    font-size: 18px;
+    
+}
+.product-right h2{}
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li {
+    background: rgba(0,0,0,.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+.footer{
+    background: #130f40;
+}
+.social-menu li{
+    display: inline-block;
+    margin-bottom: 0;
+}
+.social-menu li a{
+    display: block;
+    color: #ddd;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.footer a{
+    color: #fff;
+    text-align: center;
+    margin-left: 15px;
+    display: inline-block;
+}
+.footer p{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
